@@ -1,3 +1,4 @@
+import TopMenu from "../TopMenu";
 import "./_header.scss";
 
 const Header = () => {
@@ -50,6 +51,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <TopMenu />
     </>
   );
 };
